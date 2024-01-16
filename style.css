@@ -337,8 +337,279 @@ nav {
   font-weight: 400;
   line-height: 26px;
 }
+.tour-deals {
+  margin: 24px 0;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+}
+.tour-deals1 {
+  background: url("./Images/Group\ 39.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: end;
+}
+.tour-deals2 {
+  background: url("./Images/Group\ 40.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: start;
+}
+.tour-deals3 {
+  background: url("./Images/Group\ 39.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: end;
+}
 
-
+.details-box {
+  height: 389px;
+  width: 50%;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  margin: 56px;
+}
+.details-box-ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+  padding: 50px 0 0 50px;
+}
+.details-box-title {
+  padding-left: 50px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.details-box-ul-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.details-box-content {
+  width: 80%;
+  padding-left: 50px;
+  margin: 1rem 0;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.details-box-price {
+  color: #ff5400;
+  font-size: 20px;
+  padding-left: 50px;
+  font-weight: 800;
+}
+.details-box-btn {
+  width: 150px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  margin: 1rem 0 0 50px;
+  cursor: pointer;
+}
+.package-btn {
+  width: 210px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-section-div1 {
+  width: 50%;
+  padding-right: 20px;
+}
+.video-section-div2 {
+  width: 50%;
+}
+.video-section-div1 h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  padding-right: 31%;
+}
+.video-section-div1 p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 1rem 2.2rem 1rem 0;
+}
+.video-section-div1 li {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-right: 14%;
+  padding-bottom: 14px;
+}
+.video-section-div1 button {
+  width: 174px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.myVideo {
+  border-radius: 14px;
+  width: 100%;
+}
+.final-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+.form {
+  width: 40%;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  margin-right: 24px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.discount {
+  width: 59%;
+  background: url("./Images/Rectangle\ 8\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 422px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.form h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 1rem 0;
+}
+.hr {
+  margin: 2rem 0;
+  background: rgba(19, 19, 24, 0.1);
+  height: 1px;
+}
+.form-input {
+  height: 52px;
+  width: 100%;
+  height: 52px;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 0 1rem;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+}
+.form button {
+  width: 90%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  cursor: pointer;
+  margin: 8px 0;
+}
+.input-final-div {
+  width: 90%;
+  overflow: hidden;
+}
+.travelCom {
+  width: 45%;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  margin-bottom: 53px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.travelCom h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+.travelCom p {
+  color: #fff;
+  font-size: 24px;
+}
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-logo {
+  margin: 8rem 0 2rem 0;
+}
+footer p {
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+.icons a {
+  margin: 0 10px;
+}
+.icon {
+  width: 24px;
+}
+.line {
+  background: rgba(19, 19, 24, 0.1);
+  width: 50%;
+  height: 1px;
+  margin: 3rem 0;
+}
+.last {
+  margin-bottom: 2rem;
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+}
 @media only screen and (max-width: 750px) {
   .brandName {
     font-size: 21.543px;
@@ -456,5 +727,84 @@ nav {
   .box-content {
     font-size: 14px;
     font-weight: 400;
+  }
+  .details-box {
+    width: 100%;
+    margin: 80px 20px 20px 20px;
+  }
+  .details-box-ul {
+    padding: 50px 0 0 20px;
+  }
+  .details-box-title {
+    padding-left: 20px;
+  }
+  .details-box-ul-li {
+    margin-right: 15px;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .details-box-content {
+    width: 90%;
+    padding-left: 20px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .details-box-price {
+    padding-left: 20px;
+  }
+  .details-box-btn {
+    margin: 1rem 0 0 20px;
+  }
+  .video-section {
+    flex-direction: column;
+  }
+  .video-section-div1 {
+    width: 100%;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .video-section-div2 {
+    width: 100%;
+  }
+  .video-section-div1 h2 {
+    font-size: 20px;
+    padding-right: 2%;
+  }
+  .video-section-div1 p {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  .video-section-div1 ul {
+    margin-left: 1.5rem;
+  }
+  .final-section {
+    flex-direction: column;
+  }
+  .form {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 20px;
+  }
+  .discount {
+    width: 100%;
+  }
+  .input-final-div {
+    border-radius: 8px;
+  }
+  .travelCom {
+    width: 60%;
+    height: 79.268px;
+
+    margin-bottom: 50px;
+    margin-right: 5px;
+  }
+  .travelCom h2 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 800;
+  }
+  .travelCom p {
+    color: #fff;
+    font-size: 15px;
   }
 }
