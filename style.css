@@ -578,6 +578,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
 }
 .footer-logo {
   margin: 8rem 0 2rem 0;
