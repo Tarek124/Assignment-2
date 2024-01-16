@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+.main-div {
+  width: 1380px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+nav {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+.brandName {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+.travel {
+  color: #ff5400;
+}
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+.nav-items {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+.nav-items:hover {
+  color: #ff5400;
+  transition: 0.4s;
+}
+.hamburder {
+  display: none;
+}
+.explore-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("./Images/Group\ 13.png");
+
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin: 3rem 0;
+}
+.explore-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  color: #fff;
+}
+.explore-content h2 {
+  font-size: 64px;
+  font-weight: 800;
+}
+.explore-content p {
+  width: 676px;
+  text-align: center;
+  line-height: 26px;
+  margin: 1.4rem 0;
+}
+.explore-content form {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  gap: 24px;
+  display: flex;
+  border-radius: 8px;
+}
+.explore-input {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 0 1rem;
+}
+.explore-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff5400;
+  color: #fff;
+  gap: 5px;
+  cursor: pointer;
+}
+.our-tour {
+  margin: 8rem 0;
+  display: flex;
+  justify-content: center;
+}
+.our-tour-text,
+.img-div {
+  width: 50%;
+}
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.our-tour-text h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.our-tour-text button {
+  background: #ff5400;
+  color: #fff;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+.our-tour-text p,
+.tour-ul,
+.destination-p,
+.choose-us-p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  line-height: 26px;
+  margin: 24px 0;
+}
+.tour-ul {
+  padding-left: 2rem;
+  width: 90%;
+}
+.tour-ul li {
+  margin-top: 1rem;
+}
+.explore-btn:hover,
+.our-tour-text button:hover {
+  background: rgba(224, 78, 4, 0.979);
+  transition: 0.4s;
+}
+.destination,
+.choose-us {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.destination h2,
+.choose-us-h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.destination-p,
+.choose-us-p {
+  text-align: center;
+  width: 60%;
+}
+.img-section {
+  width: 100%;
+  margin: 1rem 0;
+}
+.group-1,
+.group-2,
+.group-3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.hover:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: 0.4s;
+}
+.img-1 {
+  width: 49%;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/Rectangle\ 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/Rectangle\ 8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 49%;
+  height: 300px;
+  border-radius: 16px;
+}
+.img-3 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/Rectangle\ 6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 300px;
+  border-radius: 16px;
+}
+.img-4 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/Rectangle\ 7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 300px;
+  border-radius: 16px;
+}
+.img-5 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/Rectangle\ 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  height: 300px;
+  border-radius: 16px;
+}
+.img-6 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/Rectangle\ 11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 38%;
+  height: 300px;
+  border-radius: 16px;
+}
+.img-7 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/Rectangle\ 10.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  height: 300px;
+  border-radius: 16px;
+}
+.box-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  width: 44%;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  height: 284px;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+.box img {
+  width: 64px;
+}
+.box-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.box-content {
+  width: 90%;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+@media only screen and (max-width: 750px) {
+  .brandName {
+    font-size: 21.543px;
+  }
+  .img-logo {
+    width: 28.724px;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .hamburder {
+    display: block;
+    width: 24px;
+  }
+  .main-div {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .explore-content h2 {
+    font-size: 22px;
+  }
+  .explore-content p {
+    font-size: 14px;
+    width: 90%;
+    margin: 8px 0;
+  }
+  .explore-content form {
+    padding: 1rem;
+    flex-direction: column;
+    width: 80%;
+  }
+  .select {
+    width: 100%;
+  }
+  .explore-btn {
+    width: 100%;
+  }
+  .input-div {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .input-div input {
+    width: 100%;
+  }
+  .our-tour {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .our-tour-text,
+  .img-div {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .img-div img {
+    width: 99%;
+  }
+  .our-tour-text p,
+  .tour-ul,
+  .destination-p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .our-tour-text h2,
+  .destination h2 {
+    font-size: 20px;
+  }
+  .tour-ul {
+    padding-left: 1rem;
+    width: 90%;
+  }
+  .tour-ul li {
+    margin-top: 5px;
+  }
+  .destination-p {
+    text-align: center;
+    width: 90%;
+  }
+  .group-1,
+  .group-2,
+  .group-3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 24px 0;
+  }
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-7 {
+    width: 100%;
+    margin-top: 24px;
+  }
+  .choose-us-p {
+    width: 90%;
+  }
+  .box {
+    width: 100%;
+    margin: 1rem 0;
+    height: 300px;
+  }
+  .box img {
+    width: 48px;
+    padding: 4px 0;
+  }
+  .box-title {
+    font-size: 20px;
+  }
+  .box-content {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
