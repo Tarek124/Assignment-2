@@ -10,6 +10,9 @@
   margin: 0 auto;
   padding: 0 4rem;
 }
+.blue-bg {
+  background: rgba(41, 206, 246, 0.05);
+}
 nav {
   margin: 2rem 0;
   display: flex;
