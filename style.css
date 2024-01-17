@@ -619,6 +619,48 @@ footer p {
   font-size: 16px;
   font-weight: 300;
 }
+.bonus-section {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.258140756302521) 18%,
+      rgba(255, 255, 255, 0) 83%
+    ),
+    url("./New\ folder/pexels-ariful-haque-3560020.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  display: flex;
+  align-items: end;
+  color: #fff;
+  margin: 4rem 0;
+}
+.bonus-div {
+  padding: 40px 24px;
+}
+.bonus-div h2 {
+  font-size: 44px;
+  font-weight: 800;
+  padding: 4px 0;
+}
+.bonus-div p {
+  font-size: 20px;
+}
+.bonus-div button {
+  width: 110px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  height: 48px;
+  border-radius: 14px;
+  background: #ff5400;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
 @media only screen and (max-width: 750px) {
   .brandName {
     font-size: 21.543px;
@@ -815,5 +857,12 @@ footer p {
   .travelCom p {
     color: #fff;
     font-size: 15px;
+  }
+   .bonus-div h2 {
+    font-size: 32px;
+    padding: 4px 0;
+  }
+  .bonus-div p {
+    font-size: 16px;
   }
 }
